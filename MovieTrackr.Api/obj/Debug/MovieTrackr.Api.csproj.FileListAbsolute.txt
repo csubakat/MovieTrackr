@@ -31,7 +31,6 @@ D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Autofac.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\AutoMapper.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Newtonsoft.Json.dll
-D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\RestSharp.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\System.Net.Http.Formatting.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\System.Web.Http.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\System.Web.Http.WebHost.dll
@@ -39,10 +38,11 @@ D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Autofac.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\AutoMapper.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Newtonsoft.Json.xml
-D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\RestSharp.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\System.Net.Http.Formatting.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\System.Web.Http.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\System.Web.Http.WebHost.xml
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\obj\Debug\MovieTrackr.Api.csprojResolveAssemblyReference.cache
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\obj\Debug\OMDB.Api.Adapter.dll
 D:\projects\MovieTrackr.Api\MovieTrackr.Api\obj\Debug\OMDB.Api.Adapter.pdb
+D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Autofac.Integration.WebApi.dll
+D:\projects\MovieTrackr.Api\MovieTrackr.Api\bin\Autofac.Integration.WebApi.xml

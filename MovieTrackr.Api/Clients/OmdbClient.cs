@@ -16,21 +16,27 @@ namespace OMDB.Api.Adapter.Clients
         {
             var requestUrl = new Uri(_omdbBaseUrl, string.Format(_byTitleResource, title));
 
-            using (var client = new HttpClient())
-            {
-                var response = await client.GetAsync(requestUrl);
-                response.EnsureSuccessStatusCode();
-
-                var movie = await response.Content.ReadAsAsync<Movie>();
-
-                return movie; //todo throw notfound
-            }
+            return await GetResponse(requestUrl);
 
         }
 
-        public Movie GetByImdbId(string id)
+        public async Task<Movie> GetByImdbId(string imdbId)
         {
-            throw new NotImplementedException();
+            var requestUrl = new Uri(_omdbBaseUrl, string.Format(_byImdbIdResource, imdbId));
+
+            return await GetResponse(requestUrl);
+        }
+
+        private async Task<Movie> GetResponse(Uri url)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+                var movie = await response.Content.ReadAsAsync<Movie>();
+
+                return movie;
+            }
         }
     }
 }

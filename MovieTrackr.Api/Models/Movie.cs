@@ -5,7 +5,7 @@ namespace OMDB.Api.Adapter.Models
     public class Movie
     {
         public string Title { get; set; }
-        public int Year { get; set; }
+        public string Year { get; set; }
         public string Runtime { get; set; }
         public string Genre { get; set; }
         public string Director { get; set; }
@@ -15,5 +15,6 @@ namespace OMDB.Api.Adapter.Models
         public Uri Poster { get; set; }
         public double ImdbRating { get; set; }
         public string Type { get; set; }
+        public string ImdbId { get; set; }
     }
 }

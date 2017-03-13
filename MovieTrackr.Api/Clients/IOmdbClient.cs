@@ -6,6 +6,6 @@ namespace OMDB.Api.Adapter.Clients
     public interface IOmdbClient
     {
         Task<Movie> GetByName(string title);
-        Movie GetByImdbId(string id);
+        Task<Movie> GetByImdbId(string imdbId);
     }
 }
